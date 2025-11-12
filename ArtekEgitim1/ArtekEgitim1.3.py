@@ -23,7 +23,7 @@
 # "len" fonksiyonu string ifadelerin karakter sayısını verir
 
 name= "Ahmet"
-surname= "Yılmaz"
+surname= "Yilmaz"
 age= 30
 print("My name is {}{}. I am {} years old.".format(name, surname, age))
 
@@ -84,7 +84,7 @@ plakalar.pop("Sakarya") # belirtilen anahtar-değer çiftini siler
 users = {
     "user1": {
         "name": "Ahmet",
-        "surname": "Yılmaz",
+        "surname": "Yilmaz",
         "age": 30
     },
     "user2": {
