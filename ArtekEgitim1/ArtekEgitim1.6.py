@@ -52,14 +52,14 @@
 #     print(item) 
 
 
-#enumerate
+#enumerate = indeks numarası ile birlikte elemanları döndürür
 
-# sehirler = ["kocaeli", "istanbul", "ankara", "izmir"]
+# sehirler = ["kocaeli", "istanbul", "ankara", "izmir"] 
 # for index, sehir in enumerate(sehirler):
 #     print(index, sehir)
 
 
-# #zip
+# #zip : İki veya daha fazla listeyi paralel olarak döndürür
 # names = ["ali", "veli", "ayse"]
 # ages = [25, 30, 22]
 # for name, age in zip(names, ages):
