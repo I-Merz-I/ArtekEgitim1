@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("map.jpg")
+img = cv2.imread("C:/Users/muhar/OneDrive/Belgeler/GitHub/ArtekEgitim1/OpenCV/ContourIslemleri/map.jpg")
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 blur = cv2.blur(gray,(3,3))
 ret,thresh = cv2.threshold(blur,40,255,cv2.THRESH_BINARY)
